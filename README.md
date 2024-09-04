@@ -6,6 +6,27 @@ This project demonstrates how to fine-tune the Meta Llama 2 7B large language mo
 
 This project aims to improve the domain-specific knowledge and generation capabilities of the Meta Llama 2 7B model by fine-tuning it on a financial dataset. The process involves evaluating the base model on financial prompts, fine-tuning it using AWS SageMaker, and then comparing its performance to the base model.
 
+## Outputs
+
+Before Fine Tuning
+![image](https://github.com/user-attachments/assets/bf2a89fa-d7d9-4d05-b9fa-4048d9b9118b)
+
+![image](https://github.com/user-attachments/assets/8b9b8a9c-8e71-4ca5-b033-23295141d469)
+
+![image](https://github.com/user-attachments/assets/dfb38443-81ce-436b-a89c-582a832e7e67)
+
+![image](https://github.com/user-attachments/assets/2902c3e5-2d25-44f4-a844-8fe519fc1609)
+
+After Fine Tuning
+
+![image](https://github.com/user-attachments/assets/47560a36-339c-410b-8b05-d5b777343671)
+
+![image](https://github.com/user-attachments/assets/66bd6861-6537-43fe-9a80-1eaed619527d)
+
+![image](https://github.com/user-attachments/assets/a8c32c83-27b3-46f2-9823-aca5ffe3fadd)
+
+![image](https://github.com/user-attachments/assets/24f0049a-d52c-44f4-9e15-9dfea702965c)
+
 ## Key Steps
 
 1. **Model Evaluation**: Test the base Llama 2 7B model on financial prompts.
