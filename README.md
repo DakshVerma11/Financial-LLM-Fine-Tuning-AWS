@@ -20,16 +20,16 @@ This project aims to improve the domain-specific knowledge and generation capabi
 
 ## Setup
 
-### Step 1: Upload Project Starter Files
 
-1. Start your SageMaker Notebook Instance by clicking on **Open JupyterLab** once your notebook instance is ready.
+
+1. Start  SageMaker Notebook Instance by clicking on **Open JupyterLab** once your notebook instance is ready.
    ![AmzSagemakerModels](https://github.com/user-attachments/assets/ff849672-39a9-415e-af57-a49c681e4b9b)
 
 2. Upload the 2 Python notebook files (.ipynb) in the project starter files folder to JupyterLab using the upload arrow in the top left menu.
    ![AmzS3DataBucket](https://github.com/user-attachments/assets/f613fd6e-5ba0-47ba-ace0-d5b094ebd314)
 
 
-3. You should see two Jupyter Notebook files in the JupyterLab file menu. Use the **Python 3.10 PyTorch or TensorFlow Kernel** to run code in these notebooks.
+3. Use the **Python 3.10 PyTorch or TensorFlow Kernel** to run code in these notebooks.
 
 4. Remember to stop your notebook instance when you stop or pause work on your project. Save your individual notebook files periodically in JupyterLab using the **File -> Save** menu to avoid losing your work between sessions.
    ![screen-shot-2024-01-07-at-1 53 29-pm](https://github.com/user-attachments/assets/119381fa-8011-48f7-b19c-4d593ece887b)
@@ -42,24 +42,19 @@ This project aims to improve the domain-specific knowledge and generation capabi
    - IT domain
    - Healthcare/Medical domain
 
+     I have used Financial dataset
+
 2. Fill out the domain you've selected in the Project Documentation Report.
 
 ### Step 3: Deploy and Evaluate the Model
 
-1. Complete and run the cells in the `Model_Evaluation.ipynb` file.
-2.  Save and download your `Model_Evaluation.ipynb` with the cell output.
-3. Ensure you've run the cells that delete the model deployment and endpoint to avoid unnecessary charges.
+
 
 ### Step 4: Fine-Tune the Model
 
-1. Complete and run the cells in the `Model_FineTuning.ipynb` file.
-2. Download your `Model_FineTuning.ipynb` with the cell output.
 
 ### Step 5: Deploy and Evaluate the Fine-Tuned Model
 
-1. Visit the AWS S3 bucket where your fine-tuned model weights are stored after training.
-2. Complete and run the cells in the `Model_FineTuning.ipynb` file about deploying and evaluating the fine-tuned model.
-3. Ensure you've run the cells that delete the model deployment and endpoint to avoid unnecessary charges.
 
 
 
